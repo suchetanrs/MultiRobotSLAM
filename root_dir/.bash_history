@@ -1,79 +1,3 @@
-cd frontier_exploration/
-ls
-grep -r "getNodesInRadius" .
-grep -r "distanceBetweenTwoPoints" .
-nano ~/.bashrc
-bash
-ls
-cd dev_ws/
-xyes
-vsc
-ranger
-cd
-cd dev_ws/install/
-ls
-cd
-cd dev_ws/
-colcon build --symlink-install
-clear
-colcon build --symlink-install
-clear
-colcon build --symlink-install
-clear
-colcon build --symlink-install
-clear
-colcon build --symlink-install
-clear
-colcon build --symlink-install
-cd
-ls
-mkdir examples_testing
-cd examples_testing/
-nano CMakeLists.txt
-nano transform_example.cpp
-mkdir build
-cd build
-cmake ..
-make
-./transform_example
-cd ..
-ls
-vsc
-cd build
-cmake ..
-make
-cmake ..
-make
-./transform_example
-make
-./transform_example
-make
-./transform_example
-make
-./transform_example
-make
-./transform_example
-make
-./transform_example
-make
-./transform_example
-make
-./transform_example
-make
-./transform_example
-make
-clear
-make
-clear
-make
-./transform_example
-make
-./transform_example
-make
-./transform_example
-make
-./transform_example
-make
 ./transform_example
 make
 ./transform_example
@@ -497,4 +421,84 @@ ros2 launch gazebo_ros gazebo.launch.py
 bash
 sros
 source dep_ws/install/setup.bash
+tmux
+source ros2_ws/install/setup.bash
+ros2 launch turtlebot3_navigation2 navigation2.launch.py 
+kill -9 &1
+kill -9 %1
+ls
+cd ros2_ws/
+ls
+cd src/
+ls
+cd turtlebot3/
+ls
+cd turtlebot3_n
+cd turtlebot3_navigation2/
+ls
+nano launch/navigation2.launch.py 
+cd
+ros2 launch turtlebot3_navigation2 navigation2.launch.py 
+bash
+sros
+source dep_ws/install/setup.bash
+source ros2_ws/install/setup.bash
+apt-get install ros-humble-turtlebot3-gazebo
+sros
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+bash
+source ros2_ws/install/setup.bash
+ros2 run turtlebot3_teleop teleop_keyboard 
+bash
+ls
+cd ros2_ws/
+ls
+sros
+source dep_ws/install/setup.bash
+ls
+cd 
+ls
+source dep_ws/install/setup.bash
+cd ros2_ws/
+ls
+colcon build --symlink-install
+source /opt/ros/humble/setup.bash && source /root/dep_ws/install/setup.bash && rosdep install --from-paths src --ignore-src -r -y
+sros
+source /root/dep_ws/install/setup.bash
+colcon build --symlink-install
+source install/setup.bahs
+tmux
+ls
+cd ros2_ws/
+ls
+rm -rf build/ install/ log/
+ls
+source /opt/ros/humble/setup.bash && rosdep install --from-paths src --ignore-src -r -y --simulate
+ls
+cd ros2_ws/
+ls
+nano ~/.bashrc
+cd ros2_ws/
+vsc
+ros2 launch turtlebot3_navigation2 navigation2.launch.py 
+kill -9 %1
+ros2 launch turtlebot3_navigation2 navigation2.launch.py 
+kill -9 %1
+source install/setup.bash
+ros2 topic echo /scan
+ros2 launch turtlebot3_navigation2 navigation2.launch.py 
+kill -9 %1
+kill -9 %1
+kill -9 %1
+vsc
+bash
+source install/setup.bash
+ros2 launch gazebo_ros gazebo.launch.py 
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+source install/setup.bash
+ros2 run turtlebot3_teleop teleop_keyboard 
+cd ros2_ws/
+colcon build --symlink-install
+source install/setup.bash
 tmux
