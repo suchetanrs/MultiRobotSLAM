@@ -1,0 +1,11 @@
+.vscode
+*.csv
+root_dir/.cache
+root_dir/.gazebo
+root_dir/.ignition
+root_dir/.local
+root_dir/.ros
+root_dir/.sdf*
+root_dir/ros2_ws/build
+root_dir/ros2_ws/install
+root_dir/ros2_ws/log
