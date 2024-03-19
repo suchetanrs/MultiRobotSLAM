@@ -13,8 +13,8 @@ This repository contains a humble with turtlebot3 and Gazebo.
 
 ```bash
 cd MultiRobotSLAM
-sudo chmod +x container_root/shell_scripts/docker_install.sh
-./container_root/shell_scripts/docker_install.sh
+sudo chmod +x docker_install.sh
+./docker_install.sh
 ```
 
 ## 3. Build the image
