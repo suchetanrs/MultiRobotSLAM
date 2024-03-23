@@ -1,68 +1,3 @@
-./transform_example
-make
-./transform_example
-make
-./transform_example
-make
-./transform_example
-cd
-cd dev_ws/
-colcon build --symlink-install
-vsc
-./shell_scripts/launch_nodes.sh 
-bash
-bash
-cd ros2_ws/
-vs
-vsc
-cd ros2_ws/
-vsc
-bash
-tmux
-./shell_scripts/launch_nodes.sh 
-bash
-hto
-htop
-cat shell_scripts/launch_nodes.sh 
-ls
-xeyes
-tmux
-./shell_scripts/launch_nodes.sh 
-./shell_scripts/launch_nodes.sh 
-ls
-tmux
-./shell_scripts/only_exploration.sh 
-./shell_scripts/only_exploration.sh 
-./shell_scripts/only_exploration.sh 
-./shell_scripts/only_exploration.sh 
-./shell_scripts/only_exploration.sh 
-./shell_scripts/only_exploration.sh 
-cd shell_scripts/
-vsc
-./launch_nodes.sh 
-./shell_scripts/launch_nodes.sh 
-./shell_scripts/launch_nodes.sh 
-./shell_scripts/launch_nodes.sh 
-./shell_scripts/launch_nodes.sh 
-./shell_scripts/launch_nodes.sh 
-nano shell_scripts/launch_nodes.sh 
-cd shell_scripts/
-vsc
-vsc
-bash
-cd ros2_ws/
-vsc
-cd
-cd dev_ws/
-vsc
-colcon build --symlink-install
-source install/setup.bash
-colcon build --symlink-install
-source install/setup.bash
-ls
-cd .ros/log/
-ls
-ls | grep explor
 cat explore_server_49217_1709083150611.log
 cat explore_server_49217_1709083150611.log
 cat explore_server_49217_1709083150611.log
@@ -502,3 +437,64 @@ cd ros2_ws/
 colcon build --symlink-install
 source install/setup.bash
 tmux
+xeyes
+source /opt/ros/humble/setup.bash
+cd /root/ros2_ws/
+colcon build --symlink-install
+source install/setup.bash
+source /opt/ros/humble/setup.bash
+source ~/ros2_ws/install/setup.bash 
+ros2 launch gazebo_ros gazebo.launch.py
+exit
+cd ~
+exit
+jobs
+fg 1
+kill 1%
+kill 1
+exit
+gazebo
+ros2 launch gazebo_ros gazebo.launch.py 
+exit
+jobs
+kill 1
+kill 2
+exit
+ros2 launch gazebo_ros gazebo.launch.py
+ros2 launch nav2_bringup tb3_simulation_launch.py headless:=False
+source /opt/ros/humble/
+source /opt/ros/humble
+ros2 launch nav2_bringup tb3_simulation_launch.py headless:=False
+sudo apt install ros-humble-navigation2
+sudo apt install ros-humble-nav2-bringup
+sudo apt install ros-humble-turtlebot3*
+source /opt/ros/humble/setup.bash
+export TURTLEBOT3_MODEL=waffle
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/humble/share/turtlebot3_gazebo/models
+ros2 launch nav2_bringup tb3_simulation_launch.py headless:=False
+source /opt/ros/humble/setup.bash
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/humble/share/turtlebot3_gazebo/models
+ros2 launch nav2_bringup tb3_simulation_launch.py headless:=False
+exit
+jobs
+kill 5
+kill 5+
+kill 4
+kill 1
+jobs
+exit
+source /opt/ros/humble/setup.bash
+cd /root/ros2_ws/
+colcon build --symlink-install
+source install/setup.bash
+ros2 launch gazebo_ros gazebo.launch.py
+ros2 launch nav2_bringup tb3_simulation_launch.py headless:=False
+exit
+jobkill
+-
+temux
+tmux
+ls
+la
+ls -a
+nano .tmux.conf 
