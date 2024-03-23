@@ -10,3 +10,5 @@ root_dir/.pki
 root_dir/ros2_ws/build
 root_dir/ros2_ws/install
 root_dir/ros2_ws/log
+**.pyc**
+**frames_**
